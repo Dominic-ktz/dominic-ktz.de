@@ -205,6 +205,8 @@ body{
         ),
         /* bottom, image */
         url(https://cdn.discordapp.com/attachments/1085578488012091492/1085648591701409853/hutao.png);
-  
-    color: #fff;
+        background-position: center;
+        color: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
