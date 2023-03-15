@@ -197,6 +197,14 @@ body{
 }
 
 .hoyolab{
-    background: linear-gradient(to left, #5865F2, #2a3282);
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(https://cdn.discordapp.com/attachments/1085578488012091492/1085648591701409853/hutao.png);
+  
     color: #fff;
 }
